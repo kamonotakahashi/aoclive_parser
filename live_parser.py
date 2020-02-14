@@ -19,5 +19,6 @@ for l in ul:
             "showtime"      : li.find("span", attrs={"class" : "showtime"}).text.strip()
         })
 
+#
 #結果吐き出し JSONで吐き出される
 print(live_list)
